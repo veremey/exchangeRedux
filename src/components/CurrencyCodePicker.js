@@ -1,3 +1,4 @@
+import { changeCurrencyCode } from '../store/rates';
 import { useDispatch } from 'react-redux';
 
 export const CurrencyCodePicker = ({
@@ -7,7 +8,7 @@ export const CurrencyCodePicker = ({
   const dispatch = useDispatch();
   
   const onChange = (e) => {
-    dispatch({type: "currencyCodeChanged", payload: e.target.value})
+    dispatch(changeCurrencyCode(e.target.value))
   }
 
   return (
