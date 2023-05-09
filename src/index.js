@@ -1,6 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { ExchangeRate } from "./components/ExchangeRate";
 import "./style.css";
 
-ReactDOM.render(<ExchangeRate />, document.getElementById("root"));
+import { ExchangeRate } from "./components/ExchangeRate";
+import { Provider } from 'react-redux';
+import React from "react";
+import ReactDOM from "react-dom";
+import { store } from './store';
+
+ReactDOM.render(<Provider store={store}><ExchangeRate /></Provider>, document.getElementById("root"));
