@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  color: rgb(0 0 0 / 50%);
+  color: rgb(0 0 0 / 80%);
   font-family: "Orbitron", sans-serif;
   background-image: linear-gradient(
     to bottom,
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  color: rgb(0 0 0 / 50%);
+  color: rgb(0 0 0 / 80%);
 }
 
 .ExchangeRate-header {
@@ -27,7 +27,7 @@ header {
 
 .currencyCode {
   background: none;
-  color: rgb(0 0 0 / 50%);
+  color: rgb(0 0 0 / 100%);
   border-color: rgb(0 0 0 / 50%);
   border-radius: 0.75em;
   padding: 0.25em;
@@ -46,7 +46,7 @@ header {
   background: none;
   border: none;
   font-family: "Orbitron", sans-serif;
-  color: rgb(0 0 0 / 50%);
+  color: rgb(0 0 0 / 100%);
   text-align: center;
   max-width: 100%;
 }
