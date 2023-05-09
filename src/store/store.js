@@ -6,6 +6,6 @@ import { userReducer } from './user'
 export const store = createStore(
   combineReducers({
     user: userReducer,
-    rate: ratesReducer,
+    rates: ratesReducer,
   })
 )
