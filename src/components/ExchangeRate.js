@@ -13,9 +13,9 @@ export const ExchangeRate = () => {
   const currencyData = useSelector(getCurrencyData)
 
   // fetch the exchange rates the first time ..
-  useEffect(() => {
-    dispatch(changeCurrencyCode(currencyCode))
-  }, []);
+  // useEffect(() => {
+  //   dispatch(changeCurrencyCode(currencyCode))
+  // }, []);
 
   return (
     <>
