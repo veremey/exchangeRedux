@@ -8,7 +8,6 @@ export function getExchangeRates(base, supportedCurrencies) {
 	const symbols = supportedCurrencies
 		.filter((symbol) => symbol !== base) // exclude your own code from requested symbols
 		.join()
-	console.log(symbols) // TODO
 	const url = `http://api.exchangeratesapi.io/latest?base=${base}&symbols=${symbols}`
 	return fetch(url)
 		.then((res) => res.json())

@@ -7,7 +7,6 @@ const initialState = {
 	supportedCurrencies: ['USD', 'EUR', 'JPY', 'CAD', 'GBP', 'MXN'],
 }
 
-sdsdf
 export const ratesReducer = (state = initialState, action) => {
 	switch (action.type) {
 		case AMOUNT_CHANGED:
